@@ -1,0 +1,60 @@
+.column {
+    float: left;
+    width: 50%;
+}
+
+#users-area{
+    width: 40%;
+}
+#rooms-area{
+    width: 60%;
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    float: left;
+    font-size: 14px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.btn-promote-admin{
+    background-color: greenyellow;
+}
+.btn-promote-admin:hover{
+    background-color: green;
+}
+
+.btn-block-user{
+    background-color: lightcoral;
+}
+.btn-block-user:hover{
+    background-color: red;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tbl-users-permission, #tbl-rooms{
+    background-color: whitesmoke;
+    color: black;
+    margin: 5%;
+}
